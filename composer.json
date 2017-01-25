@@ -1,6 +1,6 @@
 {
     "name": "kodus/uuid-v4",
-    "description": "Kodus UUID v4 generator",
+    "description": "Simple UUID v4 generator",
     "type": "library",
     "license": "MIT",
     "authors": [
