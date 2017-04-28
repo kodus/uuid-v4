@@ -1,15 +1,20 @@
-Simple UUID v4 generator
-========================
+kodus/uuid-v4
+=============
 
-Simple static UUID v4 generator (PHP 7+ only).
+Simple static UUID v4 generator/validator.
+
+[![PHP Version](https://img.shields.io/badge/php-7.0%2B-blue.svg)](https://packagist.org/packages/kodus/uuid-v4)
 
 ## Usage
 
 ```php
-<?php
 use Kodus\Helpers\UUID;
 
-require __DIR__ . '/vendor/autoload.php';
+// create UUID v4:
 
-echo UUID::create() . "\n";
+$my_uuid = UUID::create();
+
+// validate UUID v4:
+
+assert(UUID::isValid($my_uuid));
 ```
