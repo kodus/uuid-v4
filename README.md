@@ -17,4 +17,10 @@ $my_uuid = UUID::create();
 // validate UUID v4:
 
 assert(UUID::isValid($my_uuid));
+
+// pack/unpack UUID to 16-byte binary string:
+
+$bytes = UUID::pack($my_uuid);
+
+$uuid = UUID::unpack($bytes);
 ```
