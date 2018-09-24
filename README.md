@@ -7,6 +7,8 @@ Simple static UUID v4 generator/validator.
 
 ## Usage
 
+Create and validate a formatted UUID v4:
+
 ```php
 use Kodus\Helpers\UUID;
 

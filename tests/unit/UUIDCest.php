@@ -7,7 +7,7 @@ use UnitTester;
 
 class UUIDCest
 {
-    public function validateUUIDv4(UnitTester $I)
+    public function validateUUID_v4(UnitTester $I)
     {
         $I->assertTrue(UUID::isValid("afbc8a93-ebc4-41cc-9204-bb52a7534a55"));
         $I->assertTrue(UUID::isValid("0B886549-8C57-43DD-8D2C-23DCE95BB790"));
