@@ -27,5 +27,8 @@
         "psr-4": {
             "Kodus\\Test\\Unit\\": "tests/unit/"
         }
+    },
+    "scripts": {
+        "test": "codecept run"
     }
 }
